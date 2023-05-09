@@ -44,6 +44,19 @@ Once you are done testing locally you may want to have this hosted to run on its
 - This will also ensure that any apps you have utilizing this server function properly when live hosted.
 
 ### Deployment on [Render](render.com)
+If you do not already have an account go ahead and sign up
+
+1. From your Render Dashboard let's create a new Web Service
+![new-web-service]()
+2. If you have not already done so, connect your GitHub account by clicking on the `Connect account` link under the GitHub heading and authroizing Render to read from your Repositories.
+  - Under `Connect a repository` you should now see a list of your GitHub repos
+3. Connect to the GitHub repo you set for your CORS Proxy Server
+![connect-a-repository]()
+4. Update the following fields in the resulting form
+  - Name: `cors-proxy-server`
+  - Region: select the region closest to you
+  - Branch: leave as `main`
+  - Root Directory: leave as is, even if blank
 
 
 
