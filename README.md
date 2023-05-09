@@ -39,5 +39,12 @@ To use the server make an AJAX request to localhost:5001 and pass a key of `url`
 ```
 
 ## Deployment and Use
+Once you are done testing locally you may want to have this hosted to run on its own.
+- This will prevent the need to run this server locally everytime you want to work on an app that utilizes this server.
+- This will also ensure that any apps you have utilizing this server function properly when live hosted.
+
+### Deployment on [Render](render.com)
+
+
 
 ## Customization
