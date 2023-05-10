@@ -73,7 +73,7 @@ read from your Repositories.
   - Build Command: `npm run build`
   - Start Command: `node index.js`
   - Instance Type: Free
-  - Click `Create Web Sercice
+  - Click `Create Web Sercice`
 
 5. It will take aound 5 minutes for your app to build and deploy. 
   - Once your new web service is Live test it by making a fetch request 
